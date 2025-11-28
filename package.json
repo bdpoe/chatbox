@@ -1,0 +1,27 @@
+{
+  "name": "socket-messages-react",
+  "version": "1.0.0",
+  "description": "A simple React example using a Nodejs backend with Socket.io Connection. And TailwindCSS for the styles",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server/index.js --ignore frontend",
+    "build": "npm run --prefix frontend build",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "morgan": "^1.10.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
